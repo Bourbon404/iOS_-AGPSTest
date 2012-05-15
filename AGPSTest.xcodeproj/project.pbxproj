@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FE952B15624A540045DEB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952A15624A540045DEB7 /* UIKit.framework */; };
+		11FE952D15624A540045DEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952C15624A540045DEB7 /* Foundation.framework */; };
+		11FE952F15624A540045DEB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952E15624A540045DEB7 /* CoreGraphics.framework */; };
+		11FE953515624A540045DEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11FE953315624A540045DEB7 /* InfoPlist.strings */; };
+		11FE953715624A540045DEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE953615624A540045DEB7 /* main.m */; };
+		11FE953B15624A540045DEB7 /* YMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE953A15624A540045DEB7 /* YMSAppDelegate.m */; };
+		11FE953E15624A540045DEB7 /* YMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE953D15624A540045DEB7 /* YMSViewController.m */; };
+		11FE954115624A540045DEB7 /* YMSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FE953F15624A540045DEB7 /* YMSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11FE952615624A540045DEB7 /* AGPSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGPSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FE952A15624A540045DEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11FE952C15624A540045DEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11FE952E15624A540045DEB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11FE953215624A540045DEB7 /* AGPSTest-Info.plist */ = {isa = PBXFileReference; path = "AGPSTest-Info.plist"; sourceTree = "<group>"; };
+		11FE953415624A540045DEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11FE953615624A540045DEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11FE953815624A540045DEB7 /* AGPSTest-Prefix.pch */ = {isa = PBXFileReference; path = "AGPSTest-Prefix.pch"; sourceTree = "<group>"; };
+		11FE953915624A540045DEB7 /* YMSAppDelegate.h */ = {isa = PBXFileReference; path = YMSAppDelegate.h; sourceTree = "<group>"; };
+		11FE953A15624A540045DEB7 /* YMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMSAppDelegate.m; sourceTree = "<group>"; };
+		11FE953C15624A540045DEB7 /* YMSViewController.h */ = {isa = PBXFileReference; path = YMSViewController.h; sourceTree = "<group>"; };
+		11FE953D15624A540045DEB7 /* YMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMSViewController.m; sourceTree = "<group>"; };
+		11FE954015624A540045DEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YMSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FE952315624A540045DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE952B15624A540045DEB7 /* UIKit.framework in Frameworks */,
+				11FE952D15624A540045DEB7 /* Foundation.framework in Frameworks */,
+				11FE952F15624A540045DEB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FE951B15624A540045DEB7 = {
+			isa = PBXGroup;
+			children = (
+				11FE953015624A540045DEB7 /* AGPSTest */,
+				11FE952915624A540045DEB7 /* Frameworks */,
+				11FE952715624A540045DEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FE952715624A540045DEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FE952615624A540045DEB7 /* AGPSTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FE952915624A540045DEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FE952A15624A540045DEB7 /* UIKit.framework */,
+				11FE952C15624A540045DEB7 /* Foundation.framework */,
+				11FE952E15624A540045DEB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FE953015624A540045DEB7 /* AGPSTest */ = {
+			isa = PBXGroup;
+			children = (
+				11FE953915624A540045DEB7 /* YMSAppDelegate.h */,
+				11FE953A15624A540045DEB7 /* YMSAppDelegate.m */,
+				11FE953C15624A540045DEB7 /* YMSViewController.h */,
+				11FE953D15624A540045DEB7 /* YMSViewController.m */,
+				11FE953F15624A540045DEB7 /* YMSViewController.xib */,
+				11FE953115624A540045DEB7 /* Supporting Files */,
+			);
+			path = AGPSTest;
+			sourceTree = "<group>";
+		};
+		11FE953115624A540045DEB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FE953215624A540045DEB7 /* AGPSTest-Info.plist */,
+				11FE953315624A540045DEB7 /* InfoPlist.strings */,
+				11FE953615624A540045DEB7 /* main.m */,
+				11FE953815624A540045DEB7 /* AGPSTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FE952515624A540045DEB7 /* AGPSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FE954415624A540045DEB7 /* Build configuration list for PBXNativeTarget "AGPSTest" */;
+			buildPhases = (
+				11FE952215624A540045DEB7 /* Sources */,
+				11FE952315624A540045DEB7 /* Frameworks */,
+				11FE952415624A540045DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGPSTest;
+			productName = AGPSTest;
+			productReference = 11FE952615624A540045DEB7 /* AGPSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FE951D15624A540045DEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YMS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "武汉理工大学";
+			};
+			buildConfigurationList = 11FE952015624A540045DEB7 /* Build configuration list for PBXProject "AGPSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11FE951B15624A540045DEB7;
+			productRefGroup = 11FE952715624A540045DEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FE952515624A540045DEB7 /* AGPSTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FE952415624A540045DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE953515624A540045DEB7 /* InfoPlist.strings in Resources */,
+				11FE954115624A540045DEB7 /* YMSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FE952215624A540045DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE953715624A540045DEB7 /* main.m in Sources */,
+				11FE953B15624A540045DEB7 /* YMSAppDelegate.m in Sources */,
+				11FE953E15624A540045DEB7 /* YMSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11FE953315624A540045DEB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE953415624A540045DEB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11FE953F15624A540045DEB7 /* YMSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE954015624A540045DEB7 /* en */,
+			);
+			name = YMSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FE954215624A540045DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11FE954315624A540045DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FE954515624A540045DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGPSTest/AGPSTest-Prefix.pch";
+				INFOPLIST_FILE = "AGPSTest/AGPSTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11FE954615624A540045DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGPSTest/AGPSTest-Prefix.pch";
+				INFOPLIST_FILE = "AGPSTest/AGPSTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FE952015624A540045DEB7 /* Build configuration list for PBXProject "AGPSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE954215624A540045DEB7 /* Debug */,
+				11FE954315624A540045DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FE954415624A540045DEB7 /* Build configuration list for PBXNativeTarget "AGPSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE954515624A540045DEB7 /* Debug */,
+				11FE954615624A540045DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FE951D15624A540045DEB7 /* Project object */;
+}
