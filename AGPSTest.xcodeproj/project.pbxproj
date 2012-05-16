@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11842B09156257AD00D2893B /* CoreTelephony.m in Sources */ = {isa = PBXBuildFile; fileRef = 11842B08156257AD00D2893B /* CoreTelephony.m */; };
 		11FE952B15624A540045DEB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952A15624A540045DEB7 /* UIKit.framework */; };
 		11FE952D15624A540045DEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952C15624A540045DEB7 /* Foundation.framework */; };
 		11FE952F15624A540045DEB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE952E15624A540045DEB7 /* CoreGraphics.framework */; };
@@ -15,22 +16,28 @@
 		11FE953B15624A540045DEB7 /* YMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE953A15624A540045DEB7 /* YMSAppDelegate.m */; };
 		11FE953E15624A540045DEB7 /* YMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE953D15624A540045DEB7 /* YMSViewController.m */; };
 		11FE954115624A540045DEB7 /* YMSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FE953F15624A540045DEB7 /* YMSViewController.xib */; };
+		11FE954E15624B120045DEB7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE954D15624B120045DEB7 /* CoreLocation.framework */; };
+		11FE955015624D180045DEB7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE954F15624D180045DEB7 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11842B08156257AD00D2893B /* CoreTelephony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTelephony.m; sourceTree = "<group>"; };
 		11FE952615624A540045DEB7 /* AGPSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGPSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE952A15624A540045DEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11FE952C15624A540045DEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11FE952E15624A540045DEB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		11FE953215624A540045DEB7 /* AGPSTest-Info.plist */ = {isa = PBXFileReference; path = "AGPSTest-Info.plist"; sourceTree = "<group>"; };
+		11FE953215624A540045DEB7 /* AGPSTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGPSTest-Info.plist"; sourceTree = "<group>"; };
 		11FE953415624A540045DEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11FE953615624A540045DEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11FE953815624A540045DEB7 /* AGPSTest-Prefix.pch */ = {isa = PBXFileReference; path = "AGPSTest-Prefix.pch"; sourceTree = "<group>"; };
-		11FE953915624A540045DEB7 /* YMSAppDelegate.h */ = {isa = PBXFileReference; path = YMSAppDelegate.h; sourceTree = "<group>"; };
+		11FE953815624A540045DEB7 /* AGPSTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGPSTest-Prefix.pch"; sourceTree = "<group>"; };
+		11FE953915624A540045DEB7 /* YMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMSAppDelegate.h; sourceTree = "<group>"; };
 		11FE953A15624A540045DEB7 /* YMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMSAppDelegate.m; sourceTree = "<group>"; };
-		11FE953C15624A540045DEB7 /* YMSViewController.h */ = {isa = PBXFileReference; path = YMSViewController.h; sourceTree = "<group>"; };
+		11FE953C15624A540045DEB7 /* YMSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMSViewController.h; sourceTree = "<group>"; };
 		11FE953D15624A540045DEB7 /* YMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMSViewController.m; sourceTree = "<group>"; };
 		11FE954015624A540045DEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YMSViewController.xib; sourceTree = "<group>"; };
+		11FE954A15624AE90045DEB7 /* CoreTelephony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTelephony.h; sourceTree = "<group>"; };
+		11FE954D15624B120045DEB7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11FE954F15624D180045DEB7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FE955015624D180045DEB7 /* CoreTelephony.framework in Frameworks */,
 				11FE952B15624A540045DEB7 /* UIKit.framework in Frameworks */,
 				11FE952D15624A540045DEB7 /* Foundation.framework in Frameworks */,
+				11FE954E15624B120045DEB7 /* CoreLocation.framework in Frameworks */,
 				11FE952F15624A540045DEB7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +76,8 @@
 		11FE952915624A540045DEB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11FE954F15624D180045DEB7 /* CoreTelephony.framework */,
+				11FE954D15624B120045DEB7 /* CoreLocation.framework */,
 				11FE952A15624A540045DEB7 /* UIKit.framework */,
 				11FE952C15624A540045DEB7 /* Foundation.framework */,
 				11FE952E15624A540045DEB7 /* CoreGraphics.framework */,
@@ -79,6 +90,8 @@
 			children = (
 				11FE953915624A540045DEB7 /* YMSAppDelegate.h */,
 				11FE953A15624A540045DEB7 /* YMSAppDelegate.m */,
+				11FE954A15624AE90045DEB7 /* CoreTelephony.h */,
+				11842B08156257AD00D2893B /* CoreTelephony.m */,
 				11FE953C15624A540045DEB7 /* YMSViewController.h */,
 				11FE953D15624A540045DEB7 /* YMSViewController.m */,
 				11FE953F15624A540045DEB7 /* YMSViewController.xib */,
@@ -165,6 +178,7 @@
 				11FE953715624A540045DEB7 /* main.m in Sources */,
 				11FE953B15624A540045DEB7 /* YMSAppDelegate.m in Sources */,
 				11FE953E15624A540045DEB7 /* YMSViewController.m in Sources */,
+				11842B09156257AD00D2893B /* CoreTelephony.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +288,7 @@
 				11FE954615624A540045DEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
