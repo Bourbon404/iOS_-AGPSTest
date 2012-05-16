@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1280</int>
+		<int key="IBDocument.SystemTarget">1296</int>
 		<string key="IBDocument.SystemVersion">11E53</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2182</string>
 		<string key="IBDocument.AppKitVersion">1138.47</string>
@@ -43,7 +43,7 @@
 						<string key="NSFrame">{{94, 41}, {132, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="223309585"/>
+						<reference key="NSNextKeyView" ref="299709633"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -73,7 +73,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="526263576">
+					<object class="IBUILabel" id="510009045">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 419}, {280, 21}}</string>
@@ -87,7 +87,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Copyright @ Rossi Right</string>
-						<object class="NSColor" key="IBUITextColor" id="204783561">
+						<object class="NSColor" key="IBUITextColor" id="618940337">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
@@ -105,13 +105,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="223309585">
+					<object class="IBUILabel" id="299709633">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{75, 97}, {170, 40}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="504705780"/>
+						<reference key="NSNextKeyView" ref="189209799"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -119,7 +119,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">使用说明</string>
-						<reference key="IBUITextColor" ref="204783561"/>
+						<reference key="IBUITextColor" ref="618940337"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -134,13 +134,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUITextView" id="504705780">
+					<object class="IBUITextView" id="189209799">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{40, 145}, {240, 240}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="526263576"/>
+						<reference key="NSNextKeyView" ref="510009045"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -158,9 +158,8 @@
 YW1ld29ya+S4reeahOWfuuermeS/oeaBr++8jOWFt+S9k+S7o+eggeivpuingeWmguS4i+e9keerme+8
 mgoKaHR0cDovL3d3dy5kZXZkaXYuY29tL2lQaG9uZSVFNCVCOCVBRCVFNSU4RiU5NiVFNSVCRSU5N0xB
 QyVFNSU5MiU4Q2NlbGxpZCVFNyVBRCU4OSVFNCVCRiVBMSVFNiU4MSVBRi1hcnRpY2xlLTMwNTQtMS5o
-dG1sCgrjgIDnu4/ov4flhbfkvZPmtYvor5XvvJrlnKhpT1MgNS4xLjHnmoTnjq/looPkuItpUGhvbmUg
-NFPkuI3mlK/mjIHov5nnp43mlrnlvI/ojrflj5bln7rnq5nkv6Hmga/vvIzogIxpUGhvbmUgNOaUr+aM
-ge+8gQ</string>
+dG1sCgrjgIDnu4/ov4flhbfkvZPmtYvor5XvvJrlnKhpT1MgNS4xLjHnmoTnjq/looPkuIvku4VpUGhv
+bmUgNOaUr+aMge+8jGlQaG9uZSA0U+WPimlQaG9uZSAzR1PlnYfkuI3mlK/mjIHvvIE</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -237,9 +236,9 @@ ge+8gQ</string>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="270428636"/>
-							<reference ref="526263576"/>
-							<reference ref="223309585"/>
-							<reference ref="504705780"/>
+							<reference ref="510009045"/>
+							<reference ref="299709633"/>
+							<reference ref="189209799"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -250,17 +249,17 @@ ge+8gQ</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="526263576"/>
+						<reference key="object" ref="510009045"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="223309585"/>
+						<reference key="object" ref="299709633"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="504705780"/>
+						<reference key="object" ref="189209799"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -307,6 +306,10 @@ ge+8gQ</string>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
+			<real value="1296" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<string key="IBCocoaTouchPluginVersion">1181</string>
