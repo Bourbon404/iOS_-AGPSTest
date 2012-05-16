@@ -19,8 +19,8 @@
 }
 
 - (IBAction)getInfo:(id)sender{
-    CoreTelephony *test = [[CoreTelephony alloc] init];
-    [test getCellInfo];
+    CoreTelephony *ct = [[CoreTelephony alloc] init];
+    [ct getCellInfo];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
